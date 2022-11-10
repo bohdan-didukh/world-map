@@ -4,8 +4,6 @@ import * as d3 from "d3";
 import { useEffect } from "preact/hooks";
 import style from "./style.css";
 
-import WORLD from "../../data/world.json";
-
 const D3Map = () => {
   useEffect(() => {
     // The svg
