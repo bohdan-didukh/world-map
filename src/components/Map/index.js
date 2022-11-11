@@ -21,7 +21,6 @@ const D3Map = () => {
     d3.json(
       "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"
     ).then((data) => {
-      console.log("data is:", data);
       // Draw the map
       svg
         .append("g")
